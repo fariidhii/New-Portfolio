@@ -33,7 +33,25 @@ const Projects = () => {
       id: 1,
       title: "WatchIn ",
       description: "WatchIn memanfaatkan teknologi deteksi mata untuk merekam momen kantuk karyawan secara real-time. Team Project",
-      image: "👁️",
+      image: (<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+        width="40" height="40" viewBox="0 0 134.000000 109.000000"
+        preserveAspectRatio="xMidYMid meet">
+       
+       <g transform="translate(0.000000,109.000000) scale(0.100000,-0.100000)"
+       fill="#000000" stroke="none">
+       <path d="M85 1062 c-73 -35 -96 -118 -54 -197 83 -155 477 -814 498 -832 85
+       -73 221 -10 221 102 0 22 -27 138 -60 258 -33 119 -60 223 -60 231 0 8 7 16
+       15 20 16 6 41 -25 107 -132 43 -72 75 -95 131 -95 55 0 103 25 123 65 15 28
+       16 54 10 184 -5 115 -3 153 6 156 7 3 32 0 55 -6 37 -8 50 -6 86 11 37 18 50
+       35 104 132 35 61 63 113 63 116 0 3 -62 5 -139 5 -125 0 -141 -2 -165 -21 -51
+       -40 -58 -68 -50 -198 7 -122 0 -147 -31 -121 -8 7 -54 77 -102 157 -95 156
+       -123 183 -189 183 -44 0 -96 -27 -117 -62 -32 -50 -29 -77 33 -301 33 -120 60
+       -226 60 -237 0 -24 -17 -35 -34 -20 -8 6 -88 137 -178 291 -99 172 -174 288
+       -191 301 -40 29 -94 32 -142 10z m1099 -106 c-39 -59 -67 -73 -101 -50 -41 26
+       -22 84 32 97 11 2 39 5 63 6 l42 1 -36 -54z"/>
+       <path d="M1080 964 c0 -16 23 -44 35 -44 18 0 18 5 5 31 -10 17 -40 27 -40 13z"/>
+       </g>
+       </svg>),
       technologies: ["Tailwind", "Express.js", "Node.js", "CloudSQL"],
       liveUrl: "https://watchin-employee-activity-tracking.vercel.app/",
       githubUrl: "https://github.com/WatchIn-Employee-Activity-Tracking",
