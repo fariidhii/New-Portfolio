@@ -64,7 +64,7 @@ const Projects = () => {
                 style={{ transitionDelay: `${(index + 2) * 100}ms` }}
               >
                 <div className="p-6">
-                  <div className="text-3xl mb-3 hover:scale-110 transition-transform duration-300">{project.image}</div>
+                  <div className="text-3xl mb-3 transition-transform duration-300">{project.image}</div>
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">
                     {project.title}
                   </h4>
